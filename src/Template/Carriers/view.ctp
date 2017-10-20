@@ -22,14 +22,6 @@
             <th scope="row"><?= __('Id') ?></th>
             <td><?= $this->Number->format($carrier->id) ?></td>
         </tr>
-        <tr>
-            <th scope="row"><?= __('Created') ?></th>
-            <td><?= h($carrier->created) ?></td>
-        </tr>
-        <tr>
-            <th scope="row"><?= __('Modified') ?></th>
-            <td><?= h($carrier->modified) ?></td>
-        </tr>
     </table>
     <div class="related">
         <h4><?= __('Related Patients') ?></h4>
